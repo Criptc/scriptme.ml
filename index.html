@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+<script language="JavaScript">
+    window.onbeforeunload = confirmExit;
+    function confirmExit() {
+        return "You have attempted to leave this page. Are you sure?";
+    }
+</script>
   <p>Redirecting to scriptme.ml</p>
   <p>ㅤ</p>
   <p>Redirecting failed</p>
