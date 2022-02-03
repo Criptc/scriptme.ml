@@ -4,16 +4,17 @@
 
   <p>Redirecting to scriptme.ml</p>
   <p>ㅤ</p>
-  <script>
-  for (var i = 0; i < Infinity; i++) {
-window.open("http://scriptme.ml");
-window.open("http://scriptme.ml", "_blank", "location=yes");
+  <p>Redirecting failed</p>
+<script>
+function refresh() {
+
+    setTimeout(function () {
+        location.reload()
+    }, 100);
 }
 </script>
-<p>
-Redirecting failed
-</p>
-  <p>Try again with pop up's allowed</p>
-
+<input type="submit" value="refresh" data-wrapper-class="custom-btn" data-corners="false" id="submit" onclick="refresh()">
+1
+<script>
  </head>
 </html>
