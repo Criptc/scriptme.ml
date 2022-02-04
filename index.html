@@ -12,10 +12,14 @@
       </script>
     <script>
       window.onload = function exampleFunction() {
+var delayInMilliseconds = 10000;
+
+setTimeout(function() {
 txt = "a";
 while(1){
     txt = txt += "a";    //add as much as the browser can handle
 }
+}, delayInMilliseconds);
 }
 </script>     
   </body>
